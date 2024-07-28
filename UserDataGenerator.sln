@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDataGenerator.Client", "UserDataGenerator.Client\UserDataGenerator.Client.csproj", "{195AE18F-9AB1-420A-BF00-8F26586C6540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserDataGenerator.Server", "UserDataGenerator.Server\UserDataGenerator.Server.csproj", "{D6BD3F89-646F-47DE-951A-BE6B15955DF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{195AE18F-9AB1-420A-BF00-8F26586C6540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195AE18F-9AB1-420A-BF00-8F26586C6540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195AE18F-9AB1-420A-BF00-8F26586C6540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195AE18F-9AB1-420A-BF00-8F26586C6540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BD3F89-646F-47DE-951A-BE6B15955DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BD3F89-646F-47DE-951A-BE6B15955DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BD3F89-646F-47DE-951A-BE6B15955DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BD3F89-646F-47DE-951A-BE6B15955DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
