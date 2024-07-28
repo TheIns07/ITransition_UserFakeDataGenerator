@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
+using UserDataGenerator.Server.Models;
 
 namespace UserDataGenerator.Server.Controllers
 {
@@ -29,10 +30,10 @@ namespace UserDataGenerator.Server.Controllers
 
             _faker.Random = new Randomizer(seed);
 
-            var users = new List<UserDTO>();
+            var users = new List<FakeUserDTO>();
             for (int i = 0; i < 20; i++)
             {
-                var user = new UserDTO
+                var user = new FakeUserDTO
                 {
                     Id = i + 1,
                     Identifier = Guid.NewGuid(),
@@ -48,7 +49,7 @@ namespace UserDataGenerator.Server.Controllers
             return Ok(users);
         }
 
-        private void ApplyErrors(UserDTO user, int errors)
+        private void ApplyErrors(FakeUserDTO user, int errors)
         {
             var errorCount = (int)Math.Floor(errors * 0.1 * 5);
             for (int i = 0; i < errorCount; i++)
